@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HoangBui1/nodejs_blog#readme",
+  "bugs": {
+    "url": "https://github.com/HoangBui1/nodejs_blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoangBui1/nodejs_blog.git"
+  },
+  "license": "ISC",
+  "author": "Phi Hoang Bui",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
